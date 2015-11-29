@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc_cab_background_bottom_holo_dark"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bloodreportanalyser.BloodReportType" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Select"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/mainbg2"
+        android:text="@string/glucose"/>
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="36dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/mainbg2"
+        android:text="@string/wb" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1"
+        android:layout_centerVertical="true"
+        android:background="@drawable/mainbg2"
+        android:text="@string/haemo" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/Button02"
+        android:layout_alignBottom="@+id/Button02"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_alignStart="@+id/Button01"
+        android:background="@drawable/mainbg2"
+        android:text="@string/calcium" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_alignStart="@+id/Button02"
+        android:layout_below="@+id/Button02"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mainbg2"
+        android:text="@string/chole" />
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/Button03"
+        android:layout_alignStart="@+id/Button03"
+        android:layout_alignTop="@+id/Button04"
+        android:background="@drawable/mainbg2"
+        android:text="@string/liver" />
+
+</RelativeLayout>
